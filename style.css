@@ -1,0 +1,153 @@
+/* ======
+    LAYOUT
+ ======== */
+* {
+    /* box-sizing: border-box; */
+    padding: 0;
+    margin : 0;
+    font-size: 15px;
+}
+
+body {
+    background : hsl(216, 12%, 8%);
+
+
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    
+
+}
+
+/* ======
+    ELEMENTS
+ ======== */
+.card {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2em;
+    padding: 2rem;
+    background : linear-gradient( hsl(213, 19%, 20%),  hsl(213, 19%, 12%));
+    border-radius: 20px;
+    width : 325px;
+    height : 370px;
+}
+
+.star{
+    background-color: hsl(216, 12%, 25%);
+    border-radius: 50%;
+    padding : 10px;
+}
+
+.rating {
+    display : flex;
+    justify-content: space-between;
+}
+
+.rating > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(217, 12%, 25%);
+    height: 1em;
+    width : 1em;
+    border-radius: 50%;
+    padding: 20px;
+    cursor:pointer;
+
+    color: white;
+    font-family: 'Overpass', sans-serif;
+    color :hsl(0, 0%, 100%);
+    transition: 300ms;
+
+}
+
+.rating > div:hover {
+    background-color: hsl(25, 97%, 53%);
+}
+
+.rating > .active {
+    background-color: hsl(217, 12%, 65%);
+}
+
+.submit-btn {
+    font-family: 'Overpass', sans-serif;
+    color :hsl(0, 0%, 100%);
+    font-weight: 700;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    cursor: pointer;
+
+    background-color:hsl(25, 97%, 53%);
+    padding: 1em;
+    border-radius:25px;
+    border : 0px;
+    transition: 300ms;
+}
+
+.submit-btn:hover {
+
+    background-color:hsl(0, 0%, 100%);
+    color:hsl(25, 97%, 53%);
+}
+
+.grade-text {
+    background-color : hsl(217, 12%, 20%);
+    padding : 0.7em;
+    border-radius : 25px;
+    width : 50%;
+    text-align: center;
+    color:hsl(25, 97%, 53%);
+    font-family: 'Overpass', sans-serif;
+}
+
+
+
+/* ======
+    TYPO
+ ======== */
+h1 {
+    font-size: 2em;
+    font-family: 'Overpass', sans-serif;
+    color :hsl(0, 0%, 100%);
+}
+
+p {
+
+    font-family: 'Overpass', sans-serif;
+    color :hsl(216, 12%, 54%);
+    
+}
+
+.attribution {
+    color : white;
+    font-family: 'Overpass', sans-serif;
+}
+
+.attribution a {
+    color:hsl(25, 97%, 53%);
+    text-decoration: none;
+    font-weight: 700;
+
+}
+
+/* ======
+    Media queries
+ ======== */
+
+ @media screen and (max-width: 480px) {
+
+    .card {
+        margin : 20px;
+    }
+     
+ }
+
+
+
