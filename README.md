@@ -47,7 +47,9 @@ Users should be able to:
 
 ### What I learned
 
-This is my first time integrated something with javascript. I learned how to modify html elements and css properties using addEventListener.
+This is my first time I integrated something with javascript and I learned how to modify html elements and css properties using addEventListener. 
+I have no idea if I used the best practices to change the content of the card. I added a small js thing so we can easily change the range of the rating. Big range affect the design though, there must be some improvement to do there.
+I tried to add a little transition effect after submitting but I couldn't find how to do it.
 
 ### Continued development
 
